@@ -12,6 +12,6 @@ jobs:
           run: date
 
         - name: Show directory
-    run: |
-      pwd
-      ls -la
+          run: |
+            pwd
+            ls -la
