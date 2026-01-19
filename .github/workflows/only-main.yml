@@ -5,10 +5,10 @@ on:
     branches:
       - main
   
-    jobs:
-      main-only:
-        runs-on: ubuntu-latest
+jobs:
+  main-only:
+    runs-on: ubuntu-latest
 
-        steps:
-          - name: This runs only on main
-            run: echo "This is the main branch!"
+    steps:
+      - name: This runs only on main
+        run: echo "This is the main branch!"
